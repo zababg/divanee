@@ -1,0 +1,101 @@
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.row {
+    letter-spacing: -0.65em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+
+}
+
+.row .align-center {
+    text-align: center;
+}
+
+.row .align-right {
+    text-align: right;
+}
+
+[class*="col-"] {
+    letter-spacing: normal;
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: relative;
+    float: none;
+    text-align: left;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33333%;
+
+}
+
+.col-2 {
+    width: 16.66667%;
+
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-5 {
+    width: 41.66667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33333%;
+}
+
+.col-8 {
+    width: 66.66667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33333%;
+}
+
+.col-11 {
+    width: 91.66667%;
+}
+
+.col-12 {
+    width: 100%;
+}
